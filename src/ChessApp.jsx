@@ -261,8 +261,8 @@ function Header({
   return (
     <div className="header">
       <div className="title-group">
-        <div className="eyebrow">Strategy Board</div>
-        <div className="title">Chess Studio</div>
+        <div className="eyebrow">♔ Chess × Shatranj</div>
+        <div className="title">chessxshatranj</div>
         <div className="subtitle">
           Turn: <span className="bold">{turn === "w" ? "White" : "Black"}</span>
           {inCheck ? <span className="in-check"> in check</span> : null}

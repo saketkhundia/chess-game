@@ -1,0 +1,24 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#2a2a2a" stroke="#d4af37" stroke-width="3"/>
+  
+  <!-- Queen chess piece -->
+  <g transform="translate(100, 100)">
+    <!-- Base -->
+    <rect x="-18" y="45" width="36" height="8" fill="#d4af37" rx="2"/>
+    
+    <!-- Shaft -->
+    <path d="M -12 45 L -8 -5 Q 0 -15 8 -5 L 12 45" fill="#8b7355" stroke="#d4af37" stroke-width="1.5"/>
+    
+    <!-- Crown points -->
+    <circle cx="-15" cy="-10" r="5" fill="#d4af37"/>
+    <circle cx="0" cy="-20" r="5.5" fill="#d4af37"/>
+    <circle cx="15" cy="-10" r="5" fill="#d4af37"/>
+    
+    <!-- Crown base circle -->
+    <circle cx="0" cy="-8" r="12" fill="none" stroke="#d4af37" stroke-width="1.5"/>
+  </g>
+  
+  <!-- X separator -->
+  <text x="100" y="130" text-anchor="middle" font-size="24" font-weight="bold" fill="#d4af37" font-family="Arial, sans-serif">×</text>
+</svg>
