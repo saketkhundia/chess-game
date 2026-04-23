@@ -888,7 +888,7 @@ export default function ChessApp() {
       }
       stockfishRef.current = null;
     };
-  }, [move]);
+  }, [move, game]);
 
   function evaluateFenCp(fenToAnalyze, depth = 11) {
     return new Promise((resolve) => {
